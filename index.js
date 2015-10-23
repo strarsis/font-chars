@@ -1,8 +1,4 @@
-var unicodeToChar = function(unicode) {
-  String.fromCharCode(unicode);
-};
-
-var getGlyphs = function(font) {
+var getCodepoints = function(font) {
   if (!font.glyphs || font.glyphs.length === 0) {
     console.log('No glyphs found in this font.');
     return;
@@ -24,10 +20,11 @@ var getGlyphs = function(font) {
   return table;
 };
 
-
-module.exports.unicodeToChar = unicodeToChar;
-module.exports.getGlyphs     = getGlyphs;
+module.exports.getCodepoints = getCodepoints;
 
 
 // List of the characters as text in a string:
-// var glyphsList = getGlyphs(font).map(unicodeToChar).join('');
+// var glyphsList = getCodepoints(font)
+//                  .sort()
+//                  .map(glyphHelper.codepointToChar)
+//                  .join('');
