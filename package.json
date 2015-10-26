@@ -19,7 +19,9 @@
     "otf",
     "woff"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "opentype.js": "^0.5.0"
+  },
   "devDependencies": {},
   "repository": {
     "type": "git",
