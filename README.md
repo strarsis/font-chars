@@ -20,7 +20,7 @@ opentype.load('./path/to/font.ttf', function(err, font) {
 		return;
 	}
 
-	console.log(fontChars(font));
+	console.log(fontChars.getCodepoints(font));
 });
 ````
 
