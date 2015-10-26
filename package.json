@@ -1,6 +1,6 @@
 {
   "name": "font-chars",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Lists the unicode codepoints/characters of a font loaded by opentype.js",
   "main": "index.js",
   "scripts": {
