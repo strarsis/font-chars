@@ -18,5 +18,15 @@
     "ttf",
     "otf",
     "woff"
-  ]
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strarsis/font-chars.git"
+  },
+  "bugs": {
+    "url": "https://github.com/strarsis/font-chars/issues"
+  },
+  "homepage": "https://github.com/strarsis/font-chars#readme"
 }
