@@ -1,6 +1,8 @@
 # font-chars
 Lists the unicode codepoints/characters of a font loaded by opentype.js
 
+[![david](https://david-dm.org/strarsis/font-chars.svg)](https://david-dm.org/strarsis/font-chars)
+
 Heavily inspired by [character-map](https://www.npmjs.com/package/character-map) (which is a CLI tool).
 
 
